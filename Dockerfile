@@ -1,11 +1,11 @@
 FROM busybox
 
-LABEL maintainer="Jeroen Pardon"
+LABEL maintainer="Pyun Ramura"
 
 WORKDIR /opt/html
 
 COPY . /opt/html
 
-EXPOSE 80
+EXPOSE 8080
 
-ENTRYPOINT [ "httpd", "-f", "-v", "-u", "1000" ]
+ENTRYPOINT [ "httpd", "-f", "-v", "-p", "8080" ]

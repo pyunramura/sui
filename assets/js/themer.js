@@ -46,14 +46,6 @@ for (let i = 0; i < dataThemeButtons.length; i++) {
                 });
                 return;
 
-            case 'gazette':
-                setTheme({
-                    'color-background': '#F2F7FF',
-                    'color-text-pri': '#000000',
-                    'color-text-acc': '#5c5c5c'
-                });
-                return;
-
             case 'espresso':
                 setTheme({
                     'color-background': '#21211F',
@@ -62,19 +54,11 @@ for (let i = 0; i < dataThemeButtons.length; i++) {
                 });
                 return;
 
-            case 'cab':
+            case 'gruv':
                 setTheme({
-                    'color-background': '#F6D305',
-                    'color-text-pri': '#1F1F1F',
-                    'color-text-acc': '#424242'
-                });
-                return;
-
-            case 'cloud':
-                setTheme({
-                    'color-background': '#f1f2f0',
-                    'color-text-pri': '#35342f',
-                    'color-text-acc': '#37bbe4'
+                    'color-background': '#191919',
+                    'color-text-pri': '#ECDBBA',
+                    'color-text-acc': '#C84B31'
                 });
                 return;
 
@@ -101,7 +85,7 @@ for (let i = 0; i < dataThemeButtons.length; i++) {
                     'color-text-acc': '#6EE2FF'
                 });
                 return;
-            
+
             case 'blues':
                 setTheme({
                     'color-background': '#2B2C56',
@@ -109,15 +93,7 @@ for (let i = 0; i < dataThemeButtons.length; i++) {
                     'color-text-acc': '#6677EB'
                 });
                 return;
-            
-            case 'passion':
-                setTheme({
-                    'color-background': '#f5f5f5',
-                    'color-text-pri': '#12005e',
-                    'color-text-acc': '#8e24aa'
-                });
-                return;
-            
+
             case 'chalk':
                 setTheme({
                     'color-background': '#263238',
@@ -125,12 +101,12 @@ for (let i = 0; i < dataThemeButtons.length; i++) {
                     'color-text-acc': '#FF869A'
                 });
                 return;
-            
-            case 'paper':
+
+            case 'joy':
                 setTheme({
-                    'color-background': '#F8F6F1',
-                    'color-text-pri': '#4C432E',
-                    'color-text-acc': '#AA9A73'
+                    'color-background': '#0F0E0E',
+                    'color-text-pri': '#EEEEEE',
+                    'color-text-acc': '#8B9A46'
                 });
                 return;
 

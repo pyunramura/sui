@@ -57,29 +57,26 @@ function search(text) {
     if (text[0] === '/') {
         if (text.indexOf(' ') > -1) {
             switch (option) {
-                case "am":
-                    window.location = "https://www.allmusic.com/search/all/" + subtext;
-                    break;
                 case "d":
                     window.location = "https://duckduckgo.com/?q=" + subtext;
                     break;
-                case "di":
-                    window.location = "https://www.discogs.com/search/?q=" + subtext;
+                case "h":
+                    window.location = "https://hub.docker.com/search?q=" + subtext;
+                    break;
+                case "gh":
+                    window.location = "https://github.com/search?q=" + subtext;
+                    break;
+                case "y":
+                    window.location = "https://www.youtube.com/results?search_query=" + subtext;
+                    break;
+                case "r":
+                    window.location = "https://www.reddit.com/search?q=" + subtext;
                     break;
                 case "i":
                     window.location = "https://www.imdb.com/find?q=" + subtext;
                     break;
                 case "m":
                     window.location = "https://www.themoviedb.org/search?query=" + subtext;
-                    break;
-                case "r":
-                    window.location = "https://www.reddit.com/search?q=" + subtext;
-                    break;
-                case "q":
-                    window.location = "https://www.qwant.com/?q=" + subtext;
-                    break;
-                case "so":
-                    window.location = "https://soundcloud.com/search?q=" + subtext;
                     break;
                 case "s":
                     window.location = "https://open.spotify.com/search/results/" + subtext;
@@ -90,8 +87,8 @@ function search(text) {
                 case "tv":
                     window.location = "https://www.thetvdb.com/search?query=" + subtext;
                     break;
-                case "y":
-                    window.location = "https://www.youtube.com/results?search_query=" + subtext;
+                case "w":
+                    window.location = "https://en.wikipedia.org/wiki/Special:Search?search=" + subtext;
                     break;
                 case "g":
                     window.location = "https://www.google.com/?q=" + subtext;

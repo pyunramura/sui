@@ -55,7 +55,7 @@ h1{
 h2{
 	font-size: 16px;
 	height: 30px;
-	
+
 }
 
 h3{
@@ -126,7 +126,7 @@ table td:nth-of-type(2){
 
 table td{
 	border: thin solid #e4e4e4;
-	color: #333333;
+	color: #EEEEEE;
 	font-size: 1em;
 	overflow: hidden;
 	padding: 10px 5px;
@@ -135,13 +135,13 @@ table td{
 
 table th{
 	border: thin solid #e4e4e4;
-	color: #333333;
+	color: #EEEEEE;
 	font-weight: bold;
 	padding: 10px 5px;
 }
 
 table a{
-	color: #333333;
+	color: #EEEEEE;
 }
 
 
@@ -305,7 +305,7 @@ table a{
 }
 
 #modal>div{
-	background-color: #ffffff;
+	background-color: #0F0E0E;
 	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.25);
 	margin-left: auto;
     margin-right: auto;
@@ -341,14 +341,14 @@ table a{
 }
 
 .modal-close{
-	color: #000000;
+	color: #541212;
 	font-size: 1.5em;
 	text-align: center;
 	text-decoration: none;
 }
 
 .modal-close:hover{
-	color: #000;
+	color: #FFF;
 }
 
 #modal_init a{
@@ -391,40 +391,22 @@ table a{
     color: #FFFDEA;
 }
 
-.theme-gazette{
-	background-color: #F2F7FF;
-	border: 4px solid #5c5c5c;
-    color: #000000;
-}
-
 .theme-espresso{
 	background-color: #21211F;
 	border: 4px solid #4E4E4E;
     color: #D1B59A;
 }
 
-.theme-cab{
-	background-color: #FEED01;
-	border: 4px solid #424242;
-    color: #1F1F1F;
-}
-
-.theme-cloud{
-	background-color: #f1f2f0;
-	border: 4px solid #35342f;
-    color: #37bbe4;
+.theme-gruv{
+	background-color: #191919;
+	border: 4px solid #C84B31;
+    color: #ECDBBA;
 }
 
 .theme-lime{
 	background-color: #263238;
 	border: 4px solid #AABBC3;
     color: #aeea00;
-}
-
-.theme-passion{
-	background-color: #f5f5f5;
-	border: 4px solid #8e24aa;
-    color: #12005e;
 }
 
 .theme-blues{
@@ -445,10 +427,10 @@ table a{
     color: #EFFBFF;
 }
 
-.theme-paper{
-	background-color: #F8F6F1;
-	border: 4px solid #F5E1A4;
-    color: #4C432E;
+.theme-joy{
+	background-color: #0F0E0E;
+	border: 4px solid #EEEEEE;
+    color: #8B9A46;
 }
 
 
@@ -470,7 +452,7 @@ table a{
 		margin-right: auto;
 		width: 90%;
 	}
-    
+
 	#apps_loop{
 		grid-template-columns: 1fr 1fr 1fr;
 		width: 100vw;
@@ -539,7 +521,7 @@ table a{
 		font-size: 2em;
 		line-height: 2.5rem;
 	}
-    
+
 	#links_loop{
 		display: grid;
 		flex-wrap: nowrap;
@@ -551,7 +533,7 @@ table a{
 }
 
 /* Small Screens */
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 4000px) {
 	#app-address {
 		display: none;
 	}
